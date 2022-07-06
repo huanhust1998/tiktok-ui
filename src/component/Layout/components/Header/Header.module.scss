@@ -9,4 +9,33 @@
 .inner {
     height: 100%;
     width: var(--default-layout-header-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+}
+.search {
+    width: 361px;
+    height: 46px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 92px;
+    padding: 0px 16px;
+    input {
+        height: 100%;
+        color: #828282;
+        font-size: 1.6rem;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+}
+.clear {
+}
+.loading {
+}
+.search-btn {
+}
+
+.actions {
 }
